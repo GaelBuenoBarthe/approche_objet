@@ -17,5 +17,8 @@ public class ExerciceDeclarationTab {
 
         //Affichage de la longuer du tableau
         System.out.println("Longueur du tableau: " + tab.length);
+
+        //Affichage du dernier élément du tableau
+        System.out.println("Dernier element du tableau: " + tab[tab.length - 1]);
     }
 }
