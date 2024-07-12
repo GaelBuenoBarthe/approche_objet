@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/tableaux/ExerciceDeclarationTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/tableaux/ExerciceDeclarationTab.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +45,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AffichageIdentite.executor": "Run",
+    "Application.AffichegeSuite.executor": "Run",
     "Application.DeclarationApp.executor": "Run",
     "Application.ExerciceDeclarationTab.executor": "Run",
     "Application.ExerciceTableauChaines.executor": "Run",
