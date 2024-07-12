@@ -20,5 +20,17 @@ public class AffichegeSuite {
             System.out.println(i);
             i++;
         }
+        // Boucle while pour afficher tous les nombres pairs entre 0 et 10 inclus
+        i = 0;
+        while (i <= 10) {
+            System.out.println(i);
+            i += 2;
+        }
+        // Boucle while pour afficher tous les nombres impairs entre 0 et 9 inclus
+        i = 1;
+        while (i <= 9) {
+            System.out.println(i);
+            i += 2;
+        }
     }
 }
