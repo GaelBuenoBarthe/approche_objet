@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/algorithmie/AffichegeSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/AffichegeSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/algorithmie/AffichageInverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/AffichageInverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/algorithmie/InversionContenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/InversionContenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
     "Application.ExerciceDeclarationTab.executor": "Run",
     "Application.ExerciceTableauChaines.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.InversionContenu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
