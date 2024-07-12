@@ -1,4 +1,4 @@
-package fr.alorithmie;
+package fr.algorithmie;
 
 public class SommeDeTableauxDiff {
 
@@ -17,20 +17,12 @@ public class SommeDeTableauxDiff {
         }
 
         // Ajouter les éléments restants du tableau le plus long au tableau résultant
-        if (array1.length > array2.length) {
-            for (int i = array2.length; i < array1.length; i++) {
-                arrayMix[i] = array1[i];
-            }
-        } else {
-            for (int i = array1.length; i < array2.length; i++) {
-                arrayMix[i] = array2[i];
-            }
-        }
+        System.arraycopy(array1, array2.length, arrayMix, array2.length, array1.length - array2.length);
 
         // Afficher le tableau résultant arrayMix
         System.out.println("Somme des éléments des deux tableaux :");
-        for (int i = 0; i < arrayMix.length; i++) {
-            System.out.print(arrayMix[i] + " ");
+        for (int mix : arrayMix) {
+            System.out.print(mix + " ");
         }
         System.out.println();
     }

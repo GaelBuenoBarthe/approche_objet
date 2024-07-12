@@ -1,4 +1,4 @@
-package fr.alorithmie;
+package fr.algorithmie;
 
 import java.util.Scanner;
 import java.util.Arrays;

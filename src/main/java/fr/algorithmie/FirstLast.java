@@ -1,4 +1,4 @@
-package fr.alorithmie;
+package fr.algorithmie;
 
 public class FirstLast {
 
