@@ -3,7 +3,7 @@ package fr.declaration.variable;
 public class DeclarationApp {
     public static void main(String[] args) {
         byte myByte = 10;
-        short myShort = 206;
+        short myShort = 20695;
         int myInt = 35680;
         long myLong = 4000000000L;
         float myFloat = 50.5f;

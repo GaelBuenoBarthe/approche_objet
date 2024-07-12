@@ -12,6 +12,6 @@ public class TestAdressePostale {
     }
 
     public static void affichageAdresse(AdressePostale adressePostale) {
-        System.out.println("adresse : " + adressePostale.getNumeroRue() + " " + adressePostale.getLibelleRue() + " " + adressePostale.getCodeostal() + " " + adressePostale.getVille());
+        System.out.println("adresse :\n " + adressePostale.getNumeroRue() + ", " + adressePostale.getLibelleRue() + ", " + adressePostale.getCodepostal() + ", " + adressePostale.getVille() + ".");
     }
 }

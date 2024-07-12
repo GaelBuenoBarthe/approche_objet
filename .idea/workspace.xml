@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="" />
+    <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites2/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestPersonne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/declaration/variable/DeclarationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/declaration/variable/DeclarationApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +62,7 @@
     "Application.HelloWorld.executor": "Run",
     "Application.InversionContenu.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
+    "Application.TestPersonne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",

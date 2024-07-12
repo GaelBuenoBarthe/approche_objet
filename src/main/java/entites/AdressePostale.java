@@ -4,13 +4,13 @@ public class AdressePostale {
 
     private int numeroRue;
     private String libelleRue;
-    private String codeostal;
+    private String codepostal;
     private String ville;
 
-    public AdressePostale(int numeroRue, String libelleRue, String codeostal, String ville) {
+    public AdressePostale(int numeroRue, String libelleRue, String codepostal, String ville) {
         this.numeroRue = numeroRue;
         this.libelleRue = libelleRue;
-        this.codeostal = codeostal;
+        this.codepostal = codepostal;
         this.ville = ville;
     }
 
@@ -20,8 +20,8 @@ public class AdressePostale {
     public String getLibelleRue() {
         return this.libelleRue;
     }
-    public String getCodeostal() {
-        return this.codeostal;
+    public String getCodepostal() {
+        return this.codepostal;
     }
     public String getVille() {
         return this.ville;
@@ -33,8 +33,8 @@ public class AdressePostale {
     public void setLibelleRue(String libelleRue) {
         this.libelleRue = libelleRue;
     }
-    public void setCodeostal(String codeostal) {
-        this.codeostal = codeostal;
+    public void setCodepostal(String codepostal) {
+        this.codepostal = codepostal;
     }
     public void setVille(String ville) {
         this.ville = ville;
