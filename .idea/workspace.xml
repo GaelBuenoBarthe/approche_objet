@@ -36,7 +36,9 @@
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2j8kjiOlcE0qVbP319yN9BuhSDd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DeclarationApp.executor": "Run",
+    "Application.ExerciceDeclarationTab.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
