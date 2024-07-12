@@ -22,5 +22,8 @@ public class DeclarationApp {
         System.out.println("Char: " + myChar);
         System.out.println("Boolean: " + myBoolean);
         System.out.println("String: " + myString);
+
+        String randomString = "Voici le résultat d'un calcul:\n1+5=6";
+        System.out.println(randomString);
     }
 }
