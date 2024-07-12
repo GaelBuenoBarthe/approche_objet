@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/algorithmie/AffichageInverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/AffichageInverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/algorithmie/InversionContenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/InversionContenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +49,7 @@
   "keyToString": {
     "Application.AffichageIdentite.executor": "Run",
     "Application.AffichageInverse.executor": "Run",
+    "Application.AffichagePartiel.executor": "Run",
     "Application.AffichegeSuite.executor": "Run",
     "Application.DeclarationApp.executor": "Run",
     "Application.ExerciceDeclarationTab.executor": "Run",
