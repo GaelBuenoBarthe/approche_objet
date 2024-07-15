@@ -14,9 +14,7 @@ public class Compte {
         return numero;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
+
     public double getSolde() {
         return solde;
     }
