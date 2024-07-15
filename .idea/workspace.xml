@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +60,7 @@
     "Application.Interactif21Batons.executor": "Run",
     "Application.InversionContenu.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
+    "Application.TestBanque.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -91,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720776232951</updated>
       <workItem from="1721027584392" duration="646000" />
-      <workItem from="1721035326055" duration="537000" />
+      <workItem from="1721035326055" duration="3089000" />
     </task>
     <servers />
   </component>

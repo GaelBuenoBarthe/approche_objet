@@ -28,9 +28,9 @@ public class Compte {
     // toString pour afficher les détails du compte
     @Override
     public String toString() {
-        return "Compte{" +
-                "numero='" + numero + '\'' +
-                ", solde=" + solde +
-                '}';
+        return "Compte :\n " +
+                "numero = " + numero + '\n' +
+                " solde = " + solde +
+                "€.";
     }
 }
