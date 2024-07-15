@@ -1,14 +1,18 @@
 package fr.diginamic.banque.entites;
 
-public class CompteTaux {
+public class CompteTaux extends Compte {
 
-    private String numero;
-    private double solde;
     private double taux;
 
+
     public CompteTaux(String numero, double solde, double taux) {
-        this.numero = numero;
-        this.solde = solde;
+        super(numero, solde);
         this.taux = taux;
+    }
+
+    // toString pour afficher les détails du compte
+    @Override
+    public String toString() {
+        return super.toString() + "\ntaux = " + taux +"%.";
     }
 }
