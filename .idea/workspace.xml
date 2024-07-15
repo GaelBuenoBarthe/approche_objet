@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TestMethodeStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TestMethodeStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,34 +45,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AffichageIdentite.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AffichageInverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AffichagePartiel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AffichegeSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeclarationApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExerciceDeclarationTab.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExerciceTableauChaines.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interactif21Batons.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InversionContenu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAdressePostale.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;promo.database&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AffichageIdentite.executor": "Run",
+    "Application.AffichageInverse.executor": "Run",
+    "Application.AffichagePartiel.executor": "Run",
+    "Application.AffichegeSuite.executor": "Run",
+    "Application.DeclarationApp.executor": "Run",
+    "Application.ExerciceDeclarationTab.executor": "Run",
+    "Application.ExerciceTableauChaines.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.Interactif21Batons.executor": "Run",
+    "Application.InversionContenu.executor": "Run",
+    "Application.TestAdressePostale.executor": "Run",
+    "Application.TestMethodeStatic.executor": "Run",
+    "Application.TestPersonne.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "promo.database",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,6 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720776232951</updated>
       <workItem from="1721027584392" duration="646000" />
+      <workItem from="1721035326055" duration="537000" />
     </task>
     <servers />
   </component>
