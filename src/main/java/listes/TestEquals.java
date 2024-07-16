@@ -2,9 +2,9 @@ package listes;
 
 public class TestEquals {
     public static void main(String[] args) {
-        Ville ville1 = new Ville("Paris", 2000000);
-        Ville ville2 = new Ville("Paris", 2000000);
-        Ville ville3 = new Ville("Lyon", 1500000);
+        Ville ville1 = new Ville("Paris", 2000000,Continent.EUROPE );
+        Ville ville2 = new Ville("Paris", 2000000,Continent.EUROPE );
+        Ville ville3 = new Ville("Lyon", 1500000,Continent.EUROPE );
 
         // Test avec equals
         System.out.println("Avec equals:");
