@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +60,7 @@
     "Application.TestBanque.executor": "Run",
     "Application.TestCalendar.executor": "Run",
     "Application.TestDates.executor": "Run",
+    "Application.TestListeString.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
@@ -81,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FusionList">
+  <component name="RunManager" selected="Application.TestListeString">
     <configuration name="FusionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.FusionList" />
       <module name="approche_objet" />
@@ -134,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestStringBuilder" />
+    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestListeString" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="PATTERN" value="listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestListeString" />
         <item itemvalue="Application.FusionList" />
         <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestCalendar" />
         <item itemvalue="Application.TestDates" />
-        <item itemvalue="Application.TestStringBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +173,7 @@
       <updated>1720776232951</updated>
       <workItem from="1721027584392" duration="646000" />
       <workItem from="1721035326055" duration="5071000" />
-      <workItem from="1721040493003" duration="20774000" />
+      <workItem from="1721040493003" duration="21179000" />
     </task>
     <servers />
   </component>
@@ -192,5 +190,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/listes/FusionList.java</url>
+          <line>6</line>
+          <properties class="listes.FusionList" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
