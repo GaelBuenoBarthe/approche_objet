@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     "Application.DeclarationApp.executor": "Run",
     "Application.ExerciceDeclarationTab.executor": "Run",
     "Application.ExerciceTableauChaines.executor": "Run",
+    "Application.FusionList.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.Interactif21Batons.executor": "Run",
     "Application.InversionContenu.executor": "Run",
@@ -79,7 +81,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestCalendar">
+  <component name="RunManager" selected="Application.FusionList">
+    <configuration name="FusionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.FusionList" />
+      <module name="approche_objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.entites.TestBanque" />
       <module name="approche_objet" />
@@ -119,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.entites.TestOperation" />
-      <module name="approche_objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.entites.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestStringBuilder" />
       <module name="approche_objet" />
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FusionList" />
+        <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestCalendar" />
         <item itemvalue="Application.TestDates" />
         <item itemvalue="Application.TestStringBuilder" />
-        <item itemvalue="Application.TestOperation" />
-        <item itemvalue="Application.TestBanque" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,7 @@
       <updated>1720776232951</updated>
       <workItem from="1721027584392" duration="646000" />
       <workItem from="1721035326055" duration="5071000" />
-      <workItem from="1721040493003" duration="18636000" />
+      <workItem from="1721040493003" duration="20774000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,6 @@ public class Compte {
         return numero;
     }
 
-
     public double getSolde() {
         return solde;
     }
