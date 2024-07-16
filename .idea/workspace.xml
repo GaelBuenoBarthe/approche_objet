@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/maps/ComptagePaysParContinent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/ComparatorHabitant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/ComparatorHabitant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/ComparatorNom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/ComparatorNom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestTriVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestTriVilles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +76,7 @@
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestStringBuilder.executor": "Run",
+    "Application.TestTriVilles.executor": "Run",
     "Application.TestVilles.executor": "Run",
     "Application.Ville.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,20 +93,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ville">
-    <configuration name="ComptagePaysParContinent$Pays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maps.ComptagePaysParContinent$Pays" />
-      <module name="approche_objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestTriVillesNom">
     <configuration name="TString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TString" />
       <module name="approche_objet" />
@@ -115,8 +107,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestEquals" />
+    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestStringBuilder" />
+      <module name="approche_objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTriVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestTriVilles" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestStringBuilder" />
+    <configuration name="TestTriVillesNom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestTriVillesNom" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="PATTERN" value="listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ville" />
+        <item itemvalue="Application.TestTriVillesNom" />
+        <item itemvalue="Application.TestTriVilles" />
         <item itemvalue="Application.TString" />
         <item itemvalue="Application.TestStringBuilder" />
-        <item itemvalue="Application.ComptagePaysParContinent$Pays" />
-        <item itemvalue="Application.TestEquals" />
+        <item itemvalue="Application.Ville" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +187,7 @@
       <updated>1720776232951</updated>
       <workItem from="1721027584392" duration="646000" />
       <workItem from="1721035326055" duration="5071000" />
-      <workItem from="1721040493003" duration="26564000" />
+      <workItem from="1721040493003" duration="28611000" />
     </task>
     <servers />
   </component>
@@ -214,7 +219,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="NONE" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/listes/Ville.java</url>
-          <line>18</line>
+          <line>20</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>

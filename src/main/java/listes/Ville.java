@@ -2,7 +2,9 @@ package listes;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+
 
 public class Ville implements Comparable<Ville> {
     private String nom;
@@ -55,6 +57,23 @@ public class Ville implements Comparable<Ville> {
 
         System.out.println("Villes triées par nom:");
         for (Ville ville : villes) {
+            System.out.println(ville);
+        }
+
+        // Filtrage des villes ayant plus de 25000 habitants
+        List<Ville> villesFiltrees = new ArrayList<>();
+        for (Ville ville : villes) {
+            if (ville.getNbHabitants() > 25000) {
+                villesFiltrees.add(ville);
+            }
+        }
+
+        // Tri des villes filtrées en ordre décroissant de population
+        villesFiltrees.sort(Comparator.comparingInt(Ville::getNbHabitants).reversed());
+
+        // Affichage des villes triées
+        System.out.println("Villes de plus de 25000 habitants triées par population décroissante:");
+        for (Ville ville : villesFiltrees) {
             System.out.println(ville);
         }
     }
