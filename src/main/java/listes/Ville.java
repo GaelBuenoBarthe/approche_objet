@@ -8,7 +8,14 @@ public class Ville {
         this.nom = nom;
         this.nbHabitants = nbHabitants;
     }
-
+    // Redéfinition de la méthode equals pour comparer les attributs nom et nbHabitants
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Ville ville = (Ville) obj;
+        return nbHabitants == ville.nbHabitants && nom.equals(ville.nom);
+    }
     public String getNom() {
         return nom;
     }

@@ -12,8 +12,13 @@ public class TestBanque {
         comptes[1] = new CompteTaux("48576094321", 1500.00, 2.5);
 
         // Boucle sur le tableau pour afficher les informations des comptes
-        for (Compte compte : comptes) {
-            System.out.println(compte);
+        for (int i=0; i<comptes.length; i++) {
+
+            System.out.println(comptes[i]) ;
+        }
+
+        for (Compte cpt : comptes) {
+            System.out.println(cpt);
         }
     }
 }

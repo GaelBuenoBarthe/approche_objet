@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +64,7 @@
     "Application.TestBanque.executor": "Run",
     "Application.TestCalendar.executor": "Run",
     "Application.TestDates.executor": "Run",
+    "Application.TestEquals.executor": "Run",
     "Application.TestListeString.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestOperation.executor": "Run",
@@ -82,7 +85,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestVilles">
+  <component name="RunManager" selected="Application.TestEquals">
     <configuration name="FusionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.FusionList" />
       <module name="approche_objet" />
@@ -109,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestCalendar" />
+    <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestEquals" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.dates.*" />
+          <option name="PATTERN" value="listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEquals" />
+        <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestVilles" />
         <item itemvalue="Application.TestListeString" />
         <item itemvalue="Application.FusionList" />
-        <item itemvalue="Application.TestBanque" />
-        <item itemvalue="Application.TestCalendar" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +179,7 @@
       <updated>1720776232951</updated>
       <workItem from="1721027584392" duration="646000" />
       <workItem from="1721035326055" duration="5071000" />
-      <workItem from="1721040493003" duration="21843000" />
+      <workItem from="1721040493003" duration="24489000" />
     </task>
     <servers />
   </component>
