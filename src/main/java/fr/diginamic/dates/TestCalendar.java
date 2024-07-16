@@ -25,17 +25,16 @@ public class TestCalendar {
         SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         System.out.println("Date actuelle: " + sdf2.format(currentDate));
 
+        // Affichage de la date actuelle avec le nom des jours et des mois en français, russe, chinois et allemand
+        printDateInDifferentLocales(currentDate, Locale.FRENCH);
+        printDateInDifferentLocales(currentDate, new Locale("ru"));
+        printDateInDifferentLocales(currentDate, Locale.CHINESE);
+        printDateInDifferentLocales(currentDate, Locale.GERMAN);
+    }
 
-        // Affichage de la date du jour en français, russe, chinois et allemand
-        SimpleDateFormat formatFR = new SimpleDateFormat("EEEE d MMMM yyyy", Locale.FRENCH);
-        SimpleDateFormat formatRU = new SimpleDateFormat("EEEE d MMMM yyyy", new Locale("ru", "RU"));
-        SimpleDateFormat formatCN = new SimpleDateFormat("EEEE d MMMM yyyy", Locale.CHINESE);
-        SimpleDateFormat formatDE = new SimpleDateFormat("EEEE d MMMM yyyy", Locale.GERMAN);
-
-        System.out.println("Français: " + formatFR.format(calendar2.getTime()));
-        System.out.println("Russe: " + formatRU.format(calendar2.getTime()));
-        System.out.println("Chinois: " + formatCN.format(calendar2.getTime()));
-        System.out.println("Allemand: " + formatDE.format(calendar2.getTime()));
+    private static void printDateInDifferentLocales(Date date, Locale locale) {
+        SimpleDateFormat sdf = new SimpleDateFormat("EEEE, d MMMM yyyy HH:mm:ss", locale);
+        System.out.println("Date actuelle en " + locale.getDisplayLanguage(locale) + ": " + sdf.format(date));
     }
 }
 
