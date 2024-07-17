@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Cercle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestCercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestCercle.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +73,7 @@
     "Application.TestListeString.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestOperation.executor": "Run",
+    "Application.TestOperations.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestStringBuilder.executor": "Run",
     "Application.TestTriVilles.executor": "Run",
@@ -105,7 +103,7 @@
       <recent name="C:\Users\sholv\Documents\Codage\m05\Java\approche_objet\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCercle">
+  <component name="RunManager" selected="Application.TestOperations">
     <configuration name="ApplicationRecensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.ApplicationRecensement" />
       <module name="approche_objet" />
@@ -132,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestContinentAvecEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestContinentAvecEnum" />
+    <configuration name="TestEnumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.testnumeration.TestEnumeration" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.*" />
+          <option name="PATTERN" value="fr.diginamic.testnumeration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEnumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.testnumeration.TestEnumeration" />
+    <configuration name="TestOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestOperations" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.testnumeration.*" />
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOperations" />
         <item itemvalue="Application.TestCercle" />
         <item itemvalue="Application.ApplicationRecensement" />
         <item itemvalue="Application.TestEnumeration" />
         <item itemvalue="Application.Ville" />
-        <item itemvalue="Application.TestContinentAvecEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +199,7 @@
       <workItem from="1721035326055" duration="5071000" />
       <workItem from="1721040493003" duration="35898000" />
       <workItem from="1721207117738" duration="8691000" />
-      <workItem from="1721220185185" duration="5309000" />
+      <workItem from="1721220185185" duration="5970000" />
     </task>
     <servers />
   </component>
