@@ -1,6 +1,7 @@
 package fr.diginamic.recensement;
 
 import fr.diginamic.recensement.entites.Recensement;
+import fr.diginamic.recensement.services.*;
 
 import java.util.Scanner;
 
@@ -25,28 +26,36 @@ public class ApplicationRecensement {
 
             switch (choix) {
                 case 1:
-                    // Call the appropriate service class
+                    PopulationDuneVilleDonnee recherchePopulationVille = new PopulationDuneVilleDonnee();
+                    recherchePopulationVille.traiter(recensement, scanner);// Call the appropriate service class
                     break;
                 case 2:
-                    // Call the appropriate service class
+                    PopulationDunDepartementDonne recherchePopulationDepartement = new PopulationDunDepartementDonne();
+                    recherchePopulationDepartement.traiter(recensement, scanner);// Call the appropriate service class
                     break;
                 case 3:
-                    // Call the appropriate service class
+                    PopulationDuneRegionDonnee recherchePopulationRegion = new PopulationDuneRegionDonnee();
+                    recherchePopulationRegion.traiter(recensement, scanner);// Call the appropriate service class
                     break;
                 case 4:
-                    // Call the appropriate service class
+                    AfficherLes10RegionsLesPlusPeuplees rechercheRegionPlusPeuplees = new AfficherLes10RegionsLesPlusPeuplees();
+                    rechercheRegionPlusPeuplees.traiter(recensement, scanner);// Call the appropriate service class
                     break;
                 case 5:
-                    // Call the appropriate service class
+                    AfficherLes10DepartementsLesPlusPeuples rechercheDepartementPlusPeuples = new AfficherLes10DepartementsLesPlusPeuples();
+                    rechercheDepartementPlusPeuples.traiter(recensement, scanner);// Call the appropriate service class
                     break;
                 case 6:
-                    // Call the appropriate service class
+                    AfficherLes10VillesLesPlusPeupleesDunDepartement rechercheTop10VillesDepartement = new AfficherLes10VillesLesPlusPeupleesDunDepartement();
+                    rechercheTop10VillesDepartement.traiter(recensement, scanner);// Call the appropriate service class
                     break;
                 case 7:
-                    // Call the appropriate service class
+                    AfficherLes10VillesLesPlusPeupleesDuneRegion rechercheTop10VillesRegion = new AfficherLes10VillesLesPlusPeupleesDuneRegion();
+                    rechercheTop10VillesRegion.traiter(recensement, scanner);// Call the appropriate service class
                     break;
                 case 8:
-                    // Call the appropriate service class
+                    AfficherLes10VillesLesPlusPeupleesDeFrance rechercheTop10VillesFrance = new AfficherLes10VillesLesPlusPeupleesDeFrance();
+                    rechercheTop10VillesFrance.traiter(recensement, scanner);// Call the appropriate service class
                     break;
                 case 9:
                     System.out.println("Sortie...");
