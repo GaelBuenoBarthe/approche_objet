@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestTriVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestTriVilles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestTriVillesNom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestTriVillesNom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +64,7 @@
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestCalendar.executor": "Run",
+    "Application.TestContinentAvecEnum.executor": "Run",
     "Application.TestDates.executor": "Run",
     "Application.TestEnumeration.executor": "Run",
     "Application.TestEquals.executor": "Run",
@@ -84,6 +81,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sholv/Documents/Codage/m05/Java/approche_objet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -188,7 +186,8 @@
       <updated>1720776232951</updated>
       <workItem from="1721027584392" duration="646000" />
       <workItem from="1721035326055" duration="5071000" />
-      <workItem from="1721040493003" duration="33315000" />
+      <workItem from="1721040493003" duration="35898000" />
+      <workItem from="1721207117738" duration="3864000" />
     </task>
     <servers />
   </component>
