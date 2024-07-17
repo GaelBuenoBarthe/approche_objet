@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8398fd-2762-4d02-a4ef-0a6f55844dbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/entites/Recensement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/entites/Recensement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/entites/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/entites/Ville.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/testnumeration/Saison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/testnumeration/Saison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Cercle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestCercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestCercle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +35,9 @@
     &quot;accountId&quot;: &quot;31c9cdf9-69f7-42aa-aa0b-d52bf48c146a&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -69,6 +68,7 @@
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestCalendar.executor": "Run",
+    "Application.TestCercle.executor": "Run",
     "Application.TestContinentAvecEnum.executor": "Run",
     "Application.TestDates.executor": "Run",
     "Application.TestEnumeration.executor": "Run",
@@ -105,13 +105,26 @@
       <recent name="C:\Users\sholv\Documents\Codage\m05\Java\approche_objet\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationRecensement">
+  <component name="RunManager" selected="Application.TestCercle">
     <configuration name="ApplicationRecensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.ApplicationRecensement" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.diginamic.recensement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestCercle" />
+      <module name="approche_objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestEquals" />
-      <module name="approche_objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ville" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.Ville" />
       <module name="approche_objet" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCercle" />
         <item itemvalue="Application.ApplicationRecensement" />
         <item itemvalue="Application.TestEnumeration" />
         <item itemvalue="Application.Ville" />
         <item itemvalue="Application.TestContinentAvecEnum" />
-        <item itemvalue="Application.TestEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,7 @@
       <workItem from="1721035326055" duration="5071000" />
       <workItem from="1721040493003" duration="35898000" />
       <workItem from="1721207117738" duration="8691000" />
-      <workItem from="1721220185185" duration="3099000" />
+      <workItem from="1721220185185" duration="5309000" />
     </task>
     <servers />
   </component>
