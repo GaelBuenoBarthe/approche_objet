@@ -24,6 +24,16 @@ public class Ville implements Comparable<Ville> {
         Ville ville = (Ville) obj;
         return false;
     }
+    @Override
+    public int compareTo(Ville autreVille) {
+        return Integer.compare(this.nbHabitants, autreVille.nbHabitants);
+    }
+
+    @Override
+    public String toString() {
+        return nom + " avec " + nbHabitants + " habitants " + " en " + continent;
+    }
+
     public String getNom() {
         return nom;
     }
@@ -43,15 +53,7 @@ public class Ville implements Comparable<Ville> {
         this.continent = continent;
     }
 
-    @Override
-    public int compareTo(Ville autreVille) {
-        return Integer.compare(this.nbHabitants, autreVille.nbHabitants);
-    }
 
-    @Override
-    public String toString() {
-        return nom + " avec " + nbHabitants + " habitants " + " en " + continent;
-    }
     public static void main(String[] args) {
         List<Ville> villes = new ArrayList<>();
         villes.add(new Ville("Nice", 343000,Continent.EUROPE ));

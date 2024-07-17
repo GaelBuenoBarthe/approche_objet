@@ -2,13 +2,14 @@ package fr.diginamic.recensement;
 
 import fr.diginamic.recensement.entites.Recensement;
 import fr.diginamic.recensement.services.*;
+import fr.diginamic.recensement.utils.CsvReader;
 
 import java.util.Scanner;
 
 public class ApplicationRecensement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Recensement recensement = new Recensement();
+        Recensement recensement = CsvReader.lireRecensement("recensement.csv");
 
         while (true) {
             System.out.println("Menu:");
@@ -23,6 +24,7 @@ public class ApplicationRecensement {
             System.out.println("9. Sortir");
             System.out.print("Choisissez une option: ");
             int choix = scanner.nextInt();
+            scanner.nextLine();
 
             switch (choix) {
                 case 1:

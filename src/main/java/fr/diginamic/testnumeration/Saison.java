@@ -19,17 +19,11 @@ public enum Saison {
         return libelle;
     }
 
-    public void setLibelle(String libelle) {
-        this.libelle = libelle;
-    }
-
     public int getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
+
     public static Saison getSaisonByLibelle(String libelle) {
         for (Saison saison : Saison.values()) {
             if (saison.getLibelle().equalsIgnoreCase(libelle)) {

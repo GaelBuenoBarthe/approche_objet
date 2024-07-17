@@ -4,13 +4,11 @@ import java.util.List;
 
 public class Recensement {
     private List<Ville> villes;
-    private List<Departement> Departements;
-    private List<Region> Regions;
+    private List<Departement> departements;
+    private List<Region> regions;
 
-    public Recensement() {
+    public Recensement(List<Ville> villes) {
         this.villes = villes;
-        this.Departements = Departements;
-        this.Regions = Regions;
     }
 
     public List<Ville> getVilles() {
@@ -22,18 +20,18 @@ public class Recensement {
     }
 
     public List<Departement> getDepartements() {
-        return Departements;
+        return departements;
     }
 
     public void setDepartements(List<Departement> departements) {
-        Departements = departements;
+        this.departements = departements;
     }
 
     public List<Region> getRegions() {
-        return Regions;
+        return regions;
     }
 
     public void setRegions(List<Region> regions) {
-        Regions = regions;
+        this.regions = regions;
     }
 }
